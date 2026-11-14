@@ -1,9 +1,9 @@
-
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers-extra/features/actionlint:1": {},
-    "ghcr.io/devcontainers/features/node:1": {}
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
 
   "forwardPorts": [5173, 4173],
@@ -17,7 +17,6 @@
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "ms-playwright.playwright"
-
       ],
       "settings": {
         "[yaml]": {
